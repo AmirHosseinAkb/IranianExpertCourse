@@ -30,11 +30,11 @@
       <LastGenOutput>ButtonCaptions.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="DataDictionary.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DataDictionary.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="PageTitles.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>PageTitles.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
