@@ -20,12 +20,12 @@
 	//	.ToLower()
 	//	;
 
-	//var currentCultureName =
-	//	System.Threading.Thread.CurrentThread
-	//	.CurrentUICulture.TwoLetterISOLanguageName;
+	var currentCultureName =
+		System.Threading.Thread.CurrentThread
+		.CurrentUICulture.TwoLetterISOLanguageName;
 }
 
-@*
+
 	<span class="d-flex">
 	@if (currentCultureName != "fa")
 	{
@@ -43,7 +43,7 @@
 	</a>
 	}
 	</span>
-*@
+
 
 
 
@@ -101,7 +101,7 @@
 	</span>
 *@
 
-
+@*
 
 @inject Microsoft.Extensions.Options.IOptions<Infrastructure.Settings.ApplicationSettings> applicationSettingsOptions
 
@@ -153,4 +153,4 @@
 		}
 	}
 </span>
-
+*@
