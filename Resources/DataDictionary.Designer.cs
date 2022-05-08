@@ -22,7 +22,7 @@ namespace Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class DataDictionary {
+    internal class DataDictionary {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Resources.DataDictionary", typeof(DataDictionary).Assembly);
@@ -51,7 +51,7 @@ namespace Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Blog.
         /// </summary>
-        public static string Blog {
+        internal static string Blog {
             get {
                 return ResourceManager.GetString("Blog", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Cell Phone Number.
         /// </summary>
-        public static string CellPhoneNumber {
+        internal static string CellPhoneNumber {
             get {
                 return ResourceManager.GetString("CellPhoneNumber", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Cultures.
         /// </summary>
-        public static string Cultures {
+        internal static string Cultures {
             get {
                 return ResourceManager.GetString("Cultures", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Description.
         /// </summary>
-        public static string Description {
+        internal static string Description {
             get {
                 return ResourceManager.GetString("Description", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Email Address.
         /// </summary>
-        public static string EmailAddress {
+        internal static string EmailAddress {
             get {
                 return ResourceManager.GetString("EmailAddress", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Full Name.
         /// </summary>
-        public static string FullName {
+        internal static string FullName {
             get {
                 return ResourceManager.GetString("FullName", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Id.
         /// </summary>
-        public static string Id {
+        internal static string Id {
             get {
                 return ResourceManager.GetString("Id", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Insert Time.
         /// </summary>
-        public static string InsertDateTime {
+        internal static string InsertDateTime {
             get {
                 return ResourceManager.GetString("InsertDateTime", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Active.
         /// </summary>
-        public static string IsActive {
+        internal static string IsActive {
             get {
                 return ResourceManager.GetString("IsActive", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to List.
         /// </summary>
-        public static string List {
+        internal static string List {
             get {
                 return ResourceManager.GetString("List", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to List of .
         /// </summary>
-        public static string ListOf {
+        internal static string ListOf {
             get {
                 return ResourceManager.GetString("ListOf", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
-        public static string Name {
+        internal static string Name {
             get {
                 return ResourceManager.GetString("Name", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Ordering.
         /// </summary>
-        public static string Ordering {
+        internal static string Ordering {
             get {
                 return ResourceManager.GetString("Ordering", resourceCulture);
             }
@@ -180,7 +180,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Dariush Tasdighi.
         /// </summary>
-        public static string SiteAuthor {
+        internal static string SiteAuthor {
             get {
                 return ResourceManager.GetString("SiteAuthor", resourceCulture);
             }
@@ -189,7 +189,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Iranian Experts.
         /// </summary>
-        public static string SiteTitle {
+        internal static string SiteTitle {
             get {
                 return ResourceManager.GetString("SiteTitle", resourceCulture);
             }
@@ -198,7 +198,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Social Networks.
         /// </summary>
-        public static string SocialNetworks {
+        internal static string SocialNetworks {
             get {
                 return ResourceManager.GetString("SocialNetworks", resourceCulture);
             }
@@ -207,7 +207,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Source Code.
         /// </summary>
-        public static string SourceCode {
+        internal static string SourceCode {
             get {
                 return ResourceManager.GetString("SourceCode", resourceCulture);
             }
@@ -216,7 +216,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Title.
         /// </summary>
-        public static string Title {
+        internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
@@ -225,7 +225,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Update Time.
         /// </summary>
-        public static string UpdateDateTime {
+        internal static string UpdateDateTime {
             get {
                 return ResourceManager.GetString("UpdateDateTime", resourceCulture);
             }
@@ -234,7 +234,7 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Websites.
         /// </summary>
-        public static string Websites {
+        internal static string Websites {
             get {
                 return ResourceManager.GetString("Websites", resourceCulture);
             }
